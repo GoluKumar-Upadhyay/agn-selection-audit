@@ -1,0 +1,12 @@
+Error category,Mean count / split,Share of this error type,Likely cause,Mitigation
+False negatives - TOTAL,10.8,1.00,,
+  False negative: Reddened / dusty-looking (u-g > 1.0),10.0,0.93,Optical-QSO prior; reddening,WISE mid-IR features
+  False negative: Host-dominated / extended (R50 > 2.5 arcsec),6.1,0.56,Nuclear light diluted by host,"Larger cutouts, PSF modelling"
+  False negative: High redshift (z > 0.2),0.7,0.06,Limited resolution / faintness,Deeper or higher-resolution imaging
+  False negative: None of the above,0.3,0.03,Unclassified,Inspect individually
+False positives - TOTAL,12.5,1.00,,
+"  False positive: Compact + red (R50 < 2 arcsec, g-r > 0.6)",3.4,0.27,Compact elliptical mimics a point source,"Sersic index, ellipticity"
+"  False positive: Point-like + blue (R50 < 1.5 arcsec, g-r <= 0.6)",1.9,0.15,Possible stellar/point-source contamination (NOT confirmed),"Gaia cross-match, neighbour masking"
+  False positive: None of the above,7.2,0.58,Unclassified,Inspect individually
+Correct high-confidence QSO (P > 0.9),253.4,-,,
+Correct galaxy rejection (P < 0.1),246.3,-,,

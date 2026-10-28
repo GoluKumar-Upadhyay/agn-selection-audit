@@ -1,0 +1,7 @@
+{
+ "n_rest": 11247,
+ "auc_rest": 0.9971726346739473,
+ "n_qso_out_of_support": 3110,
+ "mean_p_out_of_support": 0.9602882862091064,
+ "frac_detected_out_of_support": 0.9954983922829582
+}

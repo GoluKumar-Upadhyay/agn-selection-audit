@@ -1,0 +1,5 @@
+[    1.1s] {'Original image cohort': {'n': 2220, 'n_qso': 1048, 'n_gal': 1172}, 'Magnitude-matched (r)': {'n': 974, 'n_qso': 487, 'n_gal': 487}, 'Joint r + size matched (MAIN)': {'n': 684, 'n_qso': 342, 'n_gal': 342}, 'z-support check': {'qso_inside_galaxy_z_support': 4, 'n_qso': 1048, 'n_obj_z_gt_0p5': 0, 'galaxy_zmax': 0.02992021}}
+[  269.2s] Original image cohort: seed 51 done
+[  404.8s] Magnitude-matched (r): seed 51 done
+[ 1155.0s] Joint r + size matched (MAIN): seed 51 done
+[ 1155.1s] EXPERIMENTS DONE

@@ -1,0 +1,132 @@
+[    0.0s] cohort 2220 QSO frac 0.472
+[    7.6s] seed 42 | Image only (GAP head)                          AUC 0.9935 (val 0.9941, 20 ep) rho_z|QSO +0.03 probeR2 0.90
+[   22.1s] seed 42 | Image only (spatial attn-pool)                 AUC 0.9957 (val 0.9945, 20 ep) rho_z|QSO +0.00 probeR2 0.88
+[   25.8s] seed 42 | Tabular only [photo12]                         AUC 0.9987 (val 0.9974, 35 ep) rho_z|QSO -0.02 probeR2 0.93
+[   31.8s] seed 42 | Concat [photo12]                               AUC 0.9973 (val 0.9996, 26 ep) rho_z|QSO +0.10 probeR2 0.93
+[   38.7s] seed 42 | Global-token gated [photo12]                   AUC 0.9952 (val 0.9995, 23 ep) rho_z|QSO -0.15 probeR2 0.93
+[   53.0s] seed 42 | Spatial attn, no gate [photo12]                AUC 0.9990 (val 0.9994, 18 ep) rho_z|QSO -0.04 probeR2 0.93
+[   65.4s] seed 42 | Spatial attn + gate [photo12]                  AUC 0.9976 (val 0.9990, 15 ep) rho_z|QSO +0.15 probeR2 0.93
+[   78.9s] seed 42 | Spatial attn + gate + z-adversary [photo12]    AUC 0.9983 (val 0.9994, 16 ep) rho_z|QSO -0.37 probeR2 0.93
+[   80.4s] seed 42 | Tabular only [full14]                          AUC 0.9999 (val 1.0000, 16 ep) rho_z|QSO +0.19 probeR2 1.00
+[   83.7s] seed 42 | Concat [full14]                                AUC 0.9999 (val 1.0000, 15 ep) rho_z|QSO -0.34 probeR2 1.00
+[   95.9s] seed 42 | Spatial attn + gate [full14]                   AUC 0.9999 (val 1.0000, 15 ep) rho_z|QSO +0.27 probeR2 0.99
+[   99.8s] seed 42 | Tabular only [code7]                           AUC 0.9910 (val 0.9912, 36 ep) rho_z|QSO +0.45 probeR2 0.89
+[  114.9s] seed 42 | Spatial attn + gate [code7]                    AUC 0.9963 (val 0.9974, 18 ep) rho_z|QSO -0.06 probeR2 0.92
+[  120.4s] seed 43 | Image only (GAP head)                          AUC 0.9934 (val 0.9919, 17 ep) rho_z|QSO -0.05 probeR2 0.87
+[  133.3s] seed 43 | Image only (spatial attn-pool)                 AUC 0.9907 (val 0.9936, 17 ep) rho_z|QSO +0.29 probeR2 0.85
+[  136.4s] seed 43 | Tabular only [photo12]                         AUC 0.9995 (val 0.9885, 24 ep) rho_z|QSO -0.12 probeR2 0.93
+[  141.1s] seed 43 | Concat [photo12]                               AUC 0.9997 (val 0.9966, 19 ep) rho_z|QSO -0.10 probeR2 0.94
+[  146.8s] seed 43 | Global-token gated [photo12]                   AUC 0.9995 (val 0.9959, 18 ep) rho_z|QSO -0.13 probeR2 0.95
+[  163.9s] seed 43 | Spatial attn, no gate [photo12]                AUC 0.9937 (val 0.9974, 22 ep) rho_z|QSO -0.19 probeR2 0.94
+[  181.0s] seed 43 | Spatial attn + gate [photo12]                  AUC 0.9968 (val 0.9983, 22 ep) rho_z|QSO -0.02 probeR2 0.95
+[  196.7s] seed 43 | Spatial attn + gate + z-adversary [photo12]    AUC 0.9979 (val 0.9949, 19 ep) rho_z|QSO -0.31 probeR2 0.95
+[  199.2s] seed 43 | Tabular only [full14]                          AUC 1.0000 (val 1.0000, 27 ep) rho_z|QSO -0.27 probeR2 1.00
+[  204.8s] seed 43 | Concat [full14]                                AUC 0.9999 (val 0.9999, 24 ep) rho_z|QSO -0.31 probeR2 1.00
+[  226.2s] seed 43 | Spatial attn + gate [full14]                   AUC 0.9945 (val 1.0000, 28 ep) rho_z|QSO -0.05 probeR2 0.99
+[  229.8s] seed 43 | Tabular only [code7]                           AUC 0.9914 (val 0.9796, 37 ep) rho_z|QSO +0.40 probeR2 0.91
+[  242.9s] seed 43 | Spatial attn + gate [code7]                    AUC 0.9944 (val 0.9944, 17 ep) rho_z|QSO +0.29 probeR2 0.91
+[  249.5s] seed 44 | Image only (GAP head)                          AUC 0.9835 (val 0.9923, 25 ep) rho_z|QSO +0.03 probeR2 0.89
+[  262.2s] seed 44 | Image only (spatial attn-pool)                 AUC 0.9860 (val 0.9884, 18 ep) rho_z|QSO +0.37 probeR2 0.87
+[  267.1s] seed 44 | Tabular only [photo12]                         AUC 0.9810 (val 0.9925, 50 ep) rho_z|QSO +0.08 probeR2 0.90
+[  273.2s] seed 44 | Concat [photo12]                               AUC 0.9884 (val 0.9970, 28 ep) rho_z|QSO -0.12 probeR2 0.92
+[  278.8s] seed 44 | Global-token gated [photo12]                   AUC 0.9910 (val 0.9971, 18 ep) rho_z|QSO +0.12 probeR2 0.93
+[  293.0s] seed 44 | Spatial attn, no gate [photo12]                AUC 0.9929 (val 0.9964, 19 ep) rho_z|QSO +0.26 probeR2 0.92
+[  309.0s] seed 44 | Spatial attn + gate [photo12]                  AUC 0.9950 (val 0.9938, 21 ep) rho_z|QSO +0.30 probeR2 0.93
+[  322.5s] seed 44 | Spatial attn + gate + z-adversary [photo12]    AUC 0.9887 (val 0.9955, 16 ep) rho_z|QSO +0.11 probeR2 0.91
+[  325.5s] seed 44 | Tabular only [full14]                          AUC 0.9927 (val 1.0000, 29 ep) rho_z|QSO -0.28 probeR2 0.99
+[  328.9s] seed 44 | Concat [full14]                                AUC 0.9892 (val 1.0000, 14 ep) rho_z|QSO -0.11 probeR2 0.99
+[  341.3s] seed 44 | Spatial attn + gate [full14]                   AUC 0.9929 (val 0.9999, 16 ep) rho_z|QSO -0.07 probeR2 0.99
+[  347.3s] seed 44 | Tabular only [code7]                           AUC 0.9917 (val 0.9916, 58 ep) rho_z|QSO +0.13 probeR2 0.90
+[  361.5s] seed 44 | Spatial attn + gate [code7]                    AUC 0.9922 (val 0.9907, 18 ep) rho_z|QSO +0.15 probeR2 0.91
+[  367.4s] seed 45 | Image only (GAP head)                          AUC 0.9878 (val 0.9971, 20 ep) rho_z|QSO +0.36 probeR2 0.88
+[  388.4s] seed 45 | Image only (spatial attn-pool)                 AUC 0.9873 (val 0.9976, 24 ep) rho_z|QSO +0.15 probeR2 0.85
+[  392.7s] seed 45 | Tabular only [photo12]                         AUC 0.9956 (val 0.9963, 45 ep) rho_z|QSO +0.06 probeR2 0.90
+[  397.6s] seed 45 | Concat [photo12]                               AUC 0.9965 (val 0.9988, 21 ep) rho_z|QSO +0.22 probeR2 0.93
+[  404.6s] seed 45 | Global-token gated [photo12]                   AUC 0.9963 (val 0.9987, 22 ep) rho_z|QSO -0.22 probeR2 0.94
+[  419.9s] seed 45 | Spatial attn, no gate [photo12]                AUC 0.9986 (val 0.9989, 18 ep) rho_z|QSO +0.01 probeR2 0.93
+[  445.5s] seed 45 | Spatial attn + gate [photo12]                  AUC 0.9867 (val 0.9992, 31 ep) rho_z|QSO +0.19 probeR2 0.94
+[  457.9s] seed 45 | Spatial attn + gate + z-adversary [photo12]    AUC 0.9963 (val 0.9974, 15 ep) rho_z|QSO +0.14 probeR2 0.94
+[  459.2s] seed 45 | Tabular only [full14]                          AUC 0.9972 (val 0.9991, 13 ep) rho_z|QSO +0.59 probeR2 0.99
+[  463.4s] seed 45 | Concat [full14]                                AUC 0.9970 (val 0.9999, 20 ep) rho_z|QSO +0.04 probeR2 0.99
+[  479.2s] seed 45 | Spatial attn + gate [full14]                   AUC 0.9982 (val 0.9998, 21 ep) rho_z|QSO -0.08 probeR2 0.99
+[  486.2s] seed 45 | Tabular only [code7]                           AUC 0.9928 (val 0.9885, 70 ep) rho_z|QSO -0.02 probeR2 0.89
+[  500.9s] seed 45 | Spatial attn + gate [code7]                    AUC 0.9958 (val 0.9964, 18 ep) rho_z|QSO +0.24 probeR2 0.93
+[  509.0s] seed 46 | Image only (GAP head)                          AUC 0.9970 (val 0.9921, 18 ep) rho_z|QSO -0.06 probeR2 0.92
+[  527.2s] seed 46 | Image only (spatial attn-pool)                 AUC 0.9962 (val 0.9920, 17 ep) rho_z|QSO +0.30 probeR2 0.90
+[  535.5s] seed 46 | Tabular only [photo12]                         AUC 0.9978 (val 0.9963, 34 ep) rho_z|QSO +0.23 probeR2 0.93
+[  542.4s] seed 46 | Concat [photo12]                               AUC 0.9958 (val 0.9986, 17 ep) rho_z|QSO +0.11 probeR2 0.93
+[  548.3s] seed 46 | Global-token gated [photo12]                   AUC 0.9913 (val 0.9986, 19 ep) rho_z|QSO +0.14 probeR2 0.93
+[  559.4s] seed 46 | Spatial attn, no gate [photo12]                AUC 0.9961 (val 0.9977, 14 ep) rho_z|QSO +0.34 probeR2 0.94
+[  573.5s] seed 46 | Spatial attn + gate [photo12]                  AUC 0.9969 (val 0.9986, 18 ep) rho_z|QSO -0.06 probeR2 0.94
+[  584.6s] seed 46 | Spatial attn + gate + z-adversary [photo12]    AUC 0.9950 (val 0.9982, 14 ep) rho_z|QSO +0.14 probeR2 0.94
+[  586.6s] seed 46 | Tabular only [full14]                          AUC 0.9998 (val 1.0000, 16 ep) rho_z|QSO -0.31 probeR2 0.99
+[  589.4s] seed 46 | Concat [full14]                                AUC 0.9999 (val 1.0000, 14 ep) rho_z|QSO +0.12 probeR2 0.99
+[  601.3s] seed 46 | Spatial attn + gate [full14]                   AUC 0.9998 (val 1.0000, 15 ep) rho_z|QSO -0.37 probeR2 0.99
+[  604.6s] seed 46 | Tabular only [code7]                           AUC 0.9949 (val 0.9899, 33 ep) rho_z|QSO +0.18 probeR2 0.93
+[  615.5s] seed 46 | Spatial attn + gate [code7]                    AUC 0.9960 (val 0.9923, 15 ep) rho_z|QSO +0.24 probeR2 0.94
+[  621.4s] seed 47 | Image only (GAP head)                          AUC 0.9875 (val 0.9942, 22 ep) rho_z|QSO +0.16 probeR2 0.86
+[  638.4s] seed 47 | Image only (spatial attn-pool)                 AUC 0.9831 (val 0.9953, 24 ep) rho_z|QSO +0.29 probeR2 0.86
+[  642.0s] seed 47 | Tabular only [photo12]                         AUC 0.9864 (val 0.9986, 41 ep) rho_z|QSO +0.23 probeR2 0.93
+[  646.2s] seed 47 | Concat [photo12]                               AUC 0.9917 (val 0.9989, 19 ep) rho_z|QSO +0.15 probeR2 0.93
+[  651.5s] seed 47 | Global-token gated [photo12]                   AUC 0.9881 (val 0.9991, 18 ep) rho_z|QSO +0.14 probeR2 0.95
+[  664.4s] seed 47 | Spatial attn, no gate [photo12]                AUC 0.9899 (val 0.9988, 16 ep) rho_z|QSO +0.48 probeR2 0.94
+[  678.8s] seed 47 | Spatial attn + gate [photo12]                  AUC 0.9915 (val 0.9991, 17 ep) rho_z|QSO +0.31 probeR2 0.95
+[  692.1s] seed 47 | Spatial attn + gate + z-adversary [photo12]    AUC 0.9907 (val 0.9988, 16 ep) rho_z|QSO -0.15 probeR2 0.95
+[  693.8s] seed 47 | Tabular only [full14]                          AUC 0.9990 (val 1.0000, 17 ep) rho_z|QSO -0.32 probeR2 0.99
+[  697.1s] seed 47 | Concat [full14]                                AUC 0.9994 (val 1.0000, 15 ep) rho_z|QSO -0.04 probeR2 0.99
+[  712.8s] seed 47 | Spatial attn + gate [full14]                   AUC 0.9989 (val 1.0000, 21 ep) rho_z|QSO -0.21 probeR2 0.99
+[  718.6s] seed 47 | Tabular only [code7]                           AUC 0.9779 (val 0.9923, 59 ep) rho_z|QSO +0.47 probeR2 0.91
+[  731.9s] seed 47 | Spatial attn + gate [code7]                    AUC 0.9933 (val 0.9964, 17 ep) rho_z|QSO +0.32 probeR2 0.93
+[  740.6s] seed 48 | Image only (GAP head)                          AUC 0.9827 (val 0.9951, 41 ep) rho_z|QSO +0.18 probeR2 0.86
+[  755.1s] seed 48 | Image only (spatial attn-pool)                 AUC 0.9855 (val 0.9918, 22 ep) rho_z|QSO +0.08 probeR2 0.88
+[  757.3s] seed 48 | Tabular only [photo12]                         AUC 0.9899 (val 0.9963, 23 ep) rho_z|QSO +0.00 probeR2 0.90
+[  764.3s] seed 48 | Concat [photo12]                               AUC 0.9797 (val 0.9980, 35 ep) rho_z|QSO +0.09 probeR2 0.91
+[  771.0s] seed 48 | Global-token gated [photo12]                   AUC 0.9854 (val 0.9976, 23 ep) rho_z|QSO +0.15 probeR2 0.94
+[  784.5s] seed 48 | Spatial attn, no gate [photo12]                AUC 0.9944 (val 0.9953, 18 ep) rho_z|QSO +0.14 probeR2 0.93
+[  799.4s] seed 48 | Spatial attn + gate [photo12]                  AUC 0.9948 (val 0.9961, 19 ep) rho_z|QSO -0.02 probeR2 0.94
+[  813.1s] seed 48 | Spatial attn + gate + z-adversary [photo12]    AUC 0.9950 (val 0.9953, 18 ep) rho_z|QSO +0.20 probeR2 0.94
+[  814.4s] seed 48 | Tabular only [full14]                          AUC 0.9960 (val 0.9975, 13 ep) rho_z|QSO +0.50 probeR2 0.99
+[  820.6s] seed 48 | Concat [full14]                                AUC 0.9956 (val 0.9987, 31 ep) rho_z|QSO -0.03 probeR2 1.00
+[  838.6s] seed 48 | Spatial attn + gate [full14]                   AUC 0.9955 (val 0.9976, 24 ep) rho_z|QSO -0.17 probeR2 0.99
+[  841.7s] seed 48 | Tabular only [code7]                           AUC 0.9914 (val 0.9976, 33 ep) rho_z|QSO +0.35 probeR2 0.90
+[  855.4s] seed 48 | Spatial attn + gate [code7]                    AUC 0.9889 (val 0.9916, 17 ep) rho_z|QSO +0.26 probeR2 0.92
+[  861.2s] seed 49 | Image only (GAP head)                          AUC 0.9810 (val 0.9944, 17 ep) rho_z|QSO +0.32 probeR2 0.86
+[  880.1s] seed 49 | Image only (spatial attn-pool)                 AUC 0.9834 (val 0.9922, 26 ep) rho_z|QSO -0.02 probeR2 0.84
+[  884.7s] seed 49 | Tabular only [photo12]                         AUC 0.9931 (val 0.9953, 48 ep) rho_z|QSO -0.12 probeR2 0.90
+[  888.7s] seed 49 | Concat [photo12]                               AUC 0.9958 (val 0.9967, 19 ep) rho_z|QSO +0.09 probeR2 0.92
+[  893.3s] seed 49 | Global-token gated [photo12]                   AUC 0.9954 (val 0.9969, 15 ep) rho_z|QSO -0.16 probeR2 0.93
+[  905.2s] seed 49 | Spatial attn, no gate [photo12]                AUC 0.9967 (val 0.9935, 15 ep) rho_z|QSO +0.19 probeR2 0.93
+[  916.9s] seed 49 | Spatial attn + gate [photo12]                  AUC 0.9970 (val 0.9959, 15 ep) rho_z|QSO +0.07 probeR2 0.93
+[  930.4s] seed 49 | Spatial attn + gate + z-adversary [photo12]    AUC 0.9961 (val 0.9950, 16 ep) rho_z|QSO -0.34 probeR2 0.94
+[  932.7s] seed 49 | Tabular only [full14]                          AUC 0.9943 (val 0.9999, 23 ep) rho_z|QSO -0.09 probeR2 1.00
+[  936.0s] seed 49 | Concat [full14]                                AUC 0.9970 (val 0.9999, 16 ep) rho_z|QSO -0.36 probeR2 0.99
+[  948.0s] seed 49 | Spatial attn + gate [full14]                   AUC 0.9988 (val 0.9999, 14 ep) rho_z|QSO +0.11 probeR2 0.99
+[  950.9s] seed 49 | Tabular only [code7]                           AUC 0.9834 (val 0.9803, 27 ep) rho_z|QSO +0.40 probeR2 0.88
+[  963.1s] seed 49 | Spatial attn + gate [code7]                    AUC 0.9889 (val 0.9925, 15 ep) rho_z|QSO +0.22 probeR2 0.91
+[  968.4s] seed 50 | Image only (GAP head)                          AUC 0.9917 (val 0.9929, 19 ep) rho_z|QSO +0.01 probeR2 0.87
+[  986.6s] seed 50 | Image only (spatial attn-pool)                 AUC 0.9920 (val 0.9952, 26 ep) rho_z|QSO +0.07 probeR2 0.85
+[  990.3s] seed 50 | Tabular only [photo12]                         AUC 0.9877 (val 0.9964, 30 ep) rho_z|QSO +0.18 probeR2 0.90
+[  995.0s] seed 50 | Concat [photo12]                               AUC 0.9986 (val 0.9990, 19 ep) rho_z|QSO -0.13 probeR2 0.91
+[ 1001.1s] seed 50 | Global-token gated [photo12]                   AUC 0.9965 (val 0.9990, 20 ep) rho_z|QSO -0.15 probeR2 0.92
+[ 1019.9s] seed 50 | Spatial attn, no gate [photo12]                AUC 0.9961 (val 0.9987, 25 ep) rho_z|QSO +0.09 probeR2 0.92
+[ 1034.9s] seed 50 | Spatial attn + gate [photo12]                  AUC 0.9942 (val 0.9987, 20 ep) rho_z|QSO +0.37 probeR2 0.93
+[ 1046.3s] seed 50 | Spatial attn + gate + z-adversary [photo12]    AUC 0.9966 (val 0.9971, 15 ep) rho_z|QSO +0.19 probeR2 0.93
+[ 1048.5s] seed 50 | Tabular only [full14]                          AUC 0.9988 (val 1.0000, 20 ep) rho_z|QSO -0.12 probeR2 0.99
+[ 1053.1s] seed 50 | Concat [full14]                                AUC 0.9997 (val 1.0000, 18 ep) rho_z|QSO +0.03 probeR2 0.99
+[ 1068.8s] seed 50 | Spatial attn + gate [full14]                   AUC 0.9997 (val 1.0000, 20 ep) rho_z|QSO -0.12 probeR2 0.99
+[ 1073.5s] seed 50 | Tabular only [code7]                           AUC 0.9937 (val 0.9923, 52 ep) rho_z|QSO +0.32 probeR2 0.89
+[ 1088.6s] seed 50 | Spatial attn + gate [code7]                    AUC 0.9939 (val 0.9961, 19 ep) rho_z|QSO +0.22 probeR2 0.91
+[ 1094.2s] seed 51 | Image only (GAP head)                          AUC 0.9879 (val 0.9887, 16 ep) rho_z|QSO +0.26 probeR2 0.88
+[ 1119.7s] seed 51 | Image only (spatial attn-pool)                 AUC 0.9845 (val 0.9923, 36 ep) rho_z|QSO -0.11 probeR2 0.85
+[ 1121.7s] seed 51 | Tabular only [photo12]                         AUC 0.9960 (val 0.9945, 22 ep) rho_z|QSO +0.16 probeR2 0.94
+[ 1125.1s] seed 51 | Concat [photo12]                               AUC 0.9956 (val 0.9962, 16 ep) rho_z|QSO -0.00 probeR2 0.94
+[ 1129.7s] seed 51 | Global-token gated [photo12]                   AUC 0.9961 (val 0.9954, 16 ep) rho_z|QSO +0.16 probeR2 0.95
+[ 1141.8s] seed 51 | Spatial attn, no gate [photo12]                AUC 0.9910 (val 0.9966, 15 ep) rho_z|QSO +0.09 probeR2 0.94
+[ 1159.5s] seed 51 | Spatial attn + gate [photo12]                  AUC 0.9969 (val 0.9977, 23 ep) rho_z|QSO +0.22 probeR2 0.95
+[ 1181.7s] seed 51 | Spatial attn + gate + z-adversary [photo12]    AUC 0.9969 (val 0.9969, 19 ep) rho_z|QSO -0.53 probeR2 0.96
+[ 1183.2s] seed 51 | Tabular only [full14]                          AUC 0.9933 (val 0.9980, 15 ep) rho_z|QSO +0.24 probeR2 0.99
+[ 1186.1s] seed 51 | Concat [full14]                                AUC 0.9962 (val 0.9974, 13 ep) rho_z|QSO +0.43 probeR2 0.99
+[ 1197.3s] seed 51 | Spatial attn + gate [full14]                   AUC 0.9945 (val 0.9982, 14 ep) rho_z|QSO +0.42 probeR2 0.99
+[ 1202.0s] seed 51 | Tabular only [code7]                           AUC 0.9955 (val 0.9898, 43 ep) rho_z|QSO +0.27 probeR2 0.92
+[ 1227.3s] seed 51 | Spatial attn + gate [code7]                    AUC 0.9860 (val 0.9928, 30 ep) rho_z|QSO +0.17 probeR2 0.91
+[ 1227.4s] DONE

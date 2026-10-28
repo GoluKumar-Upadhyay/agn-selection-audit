@@ -1,0 +1,8 @@
+| Evaluation cohort                                    |   n_QSO | n_galaxy   | Image-only AUC   | Tabular-only AUC (XGB, 12 shortcut-free)   | Fusion AUC (gated, 12)            | Classical AUC (colour LR)   |
+|:-----------------------------------------------------|--------:|:-----------|:-----------------|:-------------------------------------------|:----------------------------------|:----------------------------|
+| Original image cohort                                |    4958 | 9975       | 0.9914 ± 0.0015  | 0.9968 ± 0.0004                            | 0.9972 ± 0.0014                   | 0.9700 ± 0.0037             |
+| Magnitude-matched (r)                                |    2404 | 2404       | 0.9785 ± 0.0057  | 0.9923 ± 0.0023                            | 0.9961 ± 0.0013                   | 0.9632 ± 0.0068             |
+| Joint r + size matched (MAIN)                        |    1843 | 1843       | 0.9716 ± 0.0063  | 0.9886 ± 0.0027                            | 0.9908 ± 0.0032                   | 0.9547 ± 0.0067             |
+| Redshift-matched (z within galaxy support)           |      24 | all        | INFEASIBLE       | INFEASIBLE                                 | INFEASIBLE                        | INFEASIBLE                  |
+| Objects discarded by matching (shifted); AUC         |         |            |                  |                                            | 0.9972 (n=11247, seed 42)         |                             |
+| Out-of-support QSOs (z>0.030); no AUC (no negatives) |    3110 | 0          |                  |                                            | mean P(AGN)=0.960; detected=0.995 |                             |

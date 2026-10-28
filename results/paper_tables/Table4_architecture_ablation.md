@@ -1,0 +1,7 @@
+| Configuration                               | Mean test AUC ± SD   | 95% CI of mean (t, seeds)   | ΔAUC vs image-only                                          | ΔAUC vs previous                                            |
+|:--------------------------------------------|:---------------------|:----------------------------|:------------------------------------------------------------|:------------------------------------------------------------|
+| EfficientNet-B0 (frozen, image only)        | 0.9716 ± 0.0063      | [0.9671, 0.9762]            | —                                                           | —                                                           |
+| Concatenation [12 shortcut-free]            | 0.9927 ± 0.0023      | [0.9911, 0.9944]            | +0.0211 (10/10 seeds; DeLong sig 10/10; Wilcoxon p=0.00195) | +0.0211 (10/10 seeds; DeLong sig 10/10; Wilcoxon p=0.00195) |
+| Cross-attention, no gate [12 shortcut-free] | 0.9919 ± 0.0023      | [0.9903, 0.9936]            | +0.0203 (10/10 seeds; DeLong sig 10/10; Wilcoxon p=0.00195) | -0.0008 (3/10 seeds; DeLong sig 0/10; Wilcoxon p=0.275)     |
+| Global-token + gate [12 shortcut-free]      | 0.9910 ± 0.0022      | [0.9894, 0.9926]            | +0.0193 (10/10 seeds; DeLong sig 10/10; Wilcoxon p=0.00195) | -0.0010 (5/10 seeds; DeLong sig 0/10; Wilcoxon p=0.492)     |
+| Gated attention [12 shortcut-free]          | 0.9908 ± 0.0032      | [0.9885, 0.9932]            | +0.0192 (10/10 seeds; DeLong sig 8/10; Wilcoxon p=0.00195)  | -0.0001 (6/10 seeds; DeLong sig 2/10; Wilcoxon p=0.846)     |

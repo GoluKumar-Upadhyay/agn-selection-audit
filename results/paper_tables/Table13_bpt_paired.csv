@@ -1,0 +1,11 @@
+a,b,mean_diff,seeds_a_better,delong_sig,wilcoxon_p
+Gated attention [12],"EfficientNet-B0 (frozen, image only)",+0.0633,10/10,10/10,0.00195
+Concatenation [12],"EfficientNet-B0 (frozen, image only)",+0.0601,10/10,10/10,0.00195
+Gated attention [12],XGBoost [12],+0.0083,9/10,2/10,0.00391
+Concatenation [12],XGBoost [12],+0.0051,8/10,0/10,0.0371
+Gated attention [12],MLP [12],+0.0119,8/10,6/10,0.0195
+Gated attention [12],Concatenation [12],+0.0032,8/10,0/10,0.0195
+"Cross-attention, no gate [12]",Concatenation [12],+0.0020,6/10,2/10,0.432
+Gated attention [14],XGBoost [14],+0.0046,10/10,1/10,0.00195
+Gated attention [14],Gated attention [12],+0.0024,9/10,2/10,0.084
+XGBoost [12],"EfficientNet-B0 (frozen, image only)",+0.0550,10/10,10/10,0.00195

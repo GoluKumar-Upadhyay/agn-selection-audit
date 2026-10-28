@@ -1,0 +1,23 @@
+{
+ "Original image cohort": {
+  "n": 14933,
+  "n_qso": 4958,
+  "n_gal": 9975
+ },
+ "Magnitude-matched (r)": {
+  "n": 4808,
+  "n_qso": 2404,
+  "n_gal": 2404
+ },
+ "Joint r + size matched (MAIN)": {
+  "n": 3686,
+  "n_qso": 1843,
+  "n_gal": 1843
+ },
+ "z-support check": {
+  "qso_inside_galaxy_z_support": 24,
+  "n_qso": 4958,
+  "n_obj_z_gt_0p5": 0,
+  "galaxy_zmax": 0.02992641
+ }
+}

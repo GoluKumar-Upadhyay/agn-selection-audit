@@ -1,0 +1,74 @@
+# ======================================================================
+#  AGN Selection Audit  -  .gitignore
+#  Rule: large / regenerable data is NOT uploaded to GitHub.
+# ======================================================================
+
+# ---- Data: skip everything in data/ ... -----------------------------
+data/*
+# ... except the one small file the whole study depends on (2 MB).
+# The original SDSS query has no ORDER BY, so this exact table cannot be
+# re-created by re-running the query.  Delete the next line ONLY if you
+# deposit the file elsewhere (e.g. Zenodo) and update the README.
+!data/sdss_agn_dataset.csv
+
+# ---- Images, features, model weights, big binaries (anywhere) -------
+*.jpg
+*.jpeg
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.joblib
+
+# ---- Archives and Colab upload packages -----------------------------
+*.zip
+*.tar
+*.tar.gz
+*.7z
+colab_pack/
+colab_data/
+colab_upload.zip
+ft_results.zip
+
+# ---- Generated results that are bulky (small tables are kept) -------
+results/*.npy
+results/*.pkl
+results/ft_predictions_*
+results/paper/*.pkl
+results/paper/predictions.pkl
+results/paper/bpt_predictions.pkl
+
+# ---- Python ----------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+
+# ---- Virtual environments -------------------------------------------
+.venv/
+venv/
+env/
+ENV/
+
+# ---- Jupyter / Colab -------------------------------------------------
+.ipynb_checkpoints/
+
+# ---- Editors and operating systems ----------------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Office temp files (the manuscript itself is not tracked) -------
+~$*
+*.docx
+*.pdf

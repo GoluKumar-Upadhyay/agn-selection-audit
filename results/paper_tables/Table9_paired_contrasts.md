@@ -1,0 +1,10 @@
+| a                                           | b                                    |   mean_diff | seeds_a_better   | delong_sig   |   wilcoxon_p |
+|:--------------------------------------------|:-------------------------------------|------------:|:-----------------|:-------------|-------------:|
+| Gated attention [12 shortcut-free]          | Tuned XGBoost [12 shortcut-free]     |      0.0019 | 8/10             | 1/10         |      0.0371  |
+| Concatenation [12 shortcut-free]            | Tuned XGBoost [12 shortcut-free]     |      0.0038 | 8/10             | 3/10         |      0.0137  |
+| Gated attention [12 shortcut-free]          | Tuned MLP [12 shortcut-free]         |      0.0097 | 10/10            | 5/10         |      0.00195 |
+| Concatenation [12 shortcut-free]            | Tuned MLP [12 shortcut-free]         |      0.0115 | 10/10            | 8/10         |      0.00195 |
+| Fusion | Photometry + colours only          | Tuned XGBoost [photometry + colours] |      0.0053 | 10/10            | 4/10         |      0.00195 |
+| Fusion | Photometry + colours only          | Tuned MLP [photometry + colours]     |      0.0122 | 10/10            | 7/10         |      0.00195 |
+| Gated attention [12 shortcut-free]          | Concatenation [12 shortcut-free]     |     -0.0019 | 4/10             | 1/10         |      0.232   |
+| Cross-attention, no gate [12 shortcut-free] | Concatenation [12 shortcut-free]     |     -0.0008 | 3/10             | 0/10         |      0.275   |
